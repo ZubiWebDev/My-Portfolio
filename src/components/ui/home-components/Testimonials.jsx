@@ -33,7 +33,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 1.jpg"
+              src="https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -64,7 +64,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 2.webp"
+              src="https://wallpaperaccess.com/full/2580788.jpg"
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -95,7 +95,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 3.jpeg"
+              src="https://beauty-around.com/images/sampledata/British_men/david_gandi.jpg"
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -126,7 +126,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-gray-800 text-white ">
             <img
-              src="girl 4.JPG"
+              src="https://tse1.mm.bing.net/th/id/OIP.gU-xQyLL4X-QixFYb6L5qwHaId?pid=Api&P=0&h=220"
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-300"
             />
