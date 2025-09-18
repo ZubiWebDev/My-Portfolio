@@ -2,19 +2,13 @@ import React from "react";
 
 function Projects() {
   const projects = [
+      {,
     {
-      title: "portfolio.PNG",
+      title: "My Portfolio",
       description:
-        "A personal portfolio website built with React and Tailwind CSS showcasing skills and projects.",
-      image: "https://static.vecteezy.com/system/resources/previews/016/208/590/large_2x/personal-portfolio-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg",
-      link: "#",
-    },
-    {
-      title: "E-commerce Store",
-      description:
-        "An online store with product listings, cart functionality, and checkout integration.",
+        "Personal Portfolio with Profile Data, Resume or Self Improvement to Attract Clients and Employers in Flat Cartoon Hand Drawn Templates Illustration Pro Vector",
       image:
-        "https://tse4.mm.bing.net/th/id/OIP.Bf0Qcjw1-hqIN_dfipTwmAHaEM?pid=Api&P=0&h=220",
+        "https://static.vecteezy.com/system/resources/previews/016/208/590/large_2x/personal-portfolio-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg",
       link: "#",
     },
     {
