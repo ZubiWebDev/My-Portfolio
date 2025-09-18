@@ -9,7 +9,7 @@ function Intro() {
         </h2>
         <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row items-center">
           <img
-            src="my pic.jpg"
+            src="https://media.istockphoto.com/id/1159801465/photo/portrait-of-handsome-boy-posing-in-photo-studio.jpg?b=1&s=612x612&w=0&k=20&c=FHAkHxJjjrLrhOHMhSs7OOPdtivjKyWFQoAevjUwMF0="
             alt=""
             className="w-36 h-40 border rounded-full dark:bg-gray-100 dark:border-gray-700"
           />
