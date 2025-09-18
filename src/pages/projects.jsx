@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      title: "portfolio.PNG",
+      title: "https://static.vecteezy.com/system/resources/previews/016/208/590/large_2x/personal-portfolio-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg",
       description:
         "A personal portfolio website built with React and Tailwind CSS showcasing skills and projects.",
       image: "portfolio.PNG",
