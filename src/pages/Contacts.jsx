@@ -1,93 +1,98 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contacts() {
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // page reload na ho
+    setMessage("Data saved successfully");
+  };
+
   return (
-    <section className="py-25 dark:bg-gray-100 dark:text-gray-900  ">
-      <h2 className="text-3xl font-bold text-center mb-12  ">Contact Us</h2>
-      <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-        <div className="py-6 md:py-0 md:px-6">
-          {/* <h1 className="text-4xl font-bold">Get in touch</h1> */}
-          {/* <p className="pt-2 pb-4">Fill in the form to start a conversation</p> */}
-          <div className="space-y-4">
-            <p className="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5 mr-2 sm:mr-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-              <span>DHA Phase 5 M block Lahore Pak</span>
-            </p>
-            <p className="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5 mr-2 sm:mr-6"
-              >
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-              </svg>
-              <span>+923054045154</span>
-            </p>
-            <p className="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5 mr-2 sm:mr-6"
-              >
-                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-              </svg>
-              <span>zubair.itprofessional@gmail.com</span>
-            </p>
-          </div>
+    <section className="text-gray-600 body-font relative">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-12">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            Contact Us
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            "We’re here to help — get in touch with us anytime."
+          </p>
         </div>
-        <form
-          noValidate=""
-          className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
-        >
-          <label className="block">
-            <span className="mb-1">Full name</span>
-            <input
-              type="text"
-              placeholder="M.Zubair"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-200"
-            />
-          </label>
-          <label className="block">
-            <span className="mb-1">Email address</span>
-            <input
-              type="email"
-              placeholder="leroy@jenkins.com"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-200"
-            />
-          </label>
-          <label className="block">
-            <span className="mb-1">Message</span>
-            <textarea
-              rows="2"
-              className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-200"
-            ></textarea>
-          </label>
-          <button
-            type="button"
-            className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-gray-800 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600"
-          >
-            Submit
-          </button>
-        </form>
+        <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          {/* Form Start */}
+          <form onSubmit={handleSubmit} className="flex flex-wrap -m-2">
+            <div className="p-2 w-1/2">
+              <div className="relative">
+                <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 
+                  focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 
+                  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors 
+                  duration-200 ease-in-out"
+                />
+              </div>
+            </div>
+            <div className="p-2 w-1/2">
+              <div className="relative">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 
+                  focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 
+                  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors 
+                  duration-200 ease-in-out"
+                />
+              </div>
+            </div>
+            <div className="p-2 w-full">
+              <div className="relative">
+                <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 
+                  focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 
+                  h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 
+                  transition-colors duration-200 ease-in-out"
+                ></textarea>
+              </div>
+            </div>
+
+            {/* Submit Button */}
+            <div className="p-2 w-full">
+              <button
+                type="submit"
+                className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 
+                focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                Save
+              </button>
+
+              {/* Success message */}
+              {message && (
+                <p className="text-green-600 text-center mt-4">{message}</p>
+              )}
+            </div>
+          </form>
+        </div>
       </div>
     </section>
-    
   );
-  
 }
 
 export default Contacts;

@@ -3,27 +3,23 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      title: "portfolio.PNG",
+      title: "E-Commerce Website",
       description:
-        "A personal portfolio website built with React and Tailwind CSS showcasing skills and projects.",
-      image: "portfolio.PNG",
-      link: "#",
+        "An E-Commerce Website is a digital platform that allows customers to browse and purchase products online with ease. It offers a fast, secure, and user-friendly shopping experience just a click away.",
+      image: "./src/images/E-Commerce.jpg",
+      link: "https://my-ecommerce-website-lemon.vercel.app/",
     },
     {
-      title: "E-commerce Store",
-      description:
-        "An online store with product listings, cart functionality, and checkout integration.",
-      image:
-        "https://tse4.mm.bing.net/th/id/OIP.Bf0Qcjw1-hqIN_dfipTwmAHaEM?pid=Api&P=0&h=220",
-      link: "#",
+      title: "Show Model One",
+      description: "Show Model One is a modern and stylish design that highlights simplicity and elegance. Its user-friendly layout and appealing look create a smooth and engaging experience.",
+      image: "./src/images/Model pic.PNG",
+      link: "https://modal-js-main.vercel.app/",
     },
     {
-      title: "Blog Platform",
-      description:
-        "A blog application with categories, comments, and responsive design.",
-      image:
-        "https://cdn.pixabay.com/photo/2021/01/18/06/35/blogging-5927251_1280.png",
-      link: "#",
+      title: "Guess Number Game",
+      description: "Guess Number Game is a fun and interactive game where players try to guess the hidden number within a limited range. It helps improve focus, logical thinking, and keeps users entertained.",
+      image: "./src/images/Guess number.PNG",
+      link: "https://guess-number-game-omega.vercel.app/",
     },
   ];
 

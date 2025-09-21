@@ -19,50 +19,115 @@ function Footer() {
           <div className="flex flex-col space-y-4 text-white items-center">
             <h2 className="font-medium">Getting started</h2>
             <div className="flex flex-col space-y-2 text-sm text-white items-center">
-              <a rel="noopener noreferrer" href="#">Installation</a>
-              <a rel="noopener noreferrer" href="#">Release Notes</a>
-              <a rel="noopener noreferrer" href="#">Upgrade Guide</a>
-              <a rel="noopener noreferrer" href="#">Using with Preprocessors</a>
-              <a rel="noopener noreferrer" href="#">Optimizing for Production</a>
-              <a rel="noopener noreferrer" href="#">Browser Support</a>
-              <a rel="noopener noreferrer" href="#">IntelliSense</a>
+              <a rel="noopener noreferrer" href="#">
+                Installation
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Release Notes
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Upgrade Guide
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Using with Preprocessors
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Optimizing for Production
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Browser Support
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                IntelliSense
+              </a>
             </div>
           </div>
 
           <div className="flex flex-col space-y-4 items-center">
             <h2 className="font-medium">Core Concepts</h2>
             <div className="flex flex-col space-y-2 text-sm text-white items-center">
-              <a rel="noopener noreferrer" href="#">Utility-First</a>
-              <a rel="noopener noreferrer" href="#">Responsive Design</a>
-              <a rel="noopener noreferrer" href="#">Hover, Focus, &amp; Other States</a>
-              <a rel="noopener noreferrer" href="#">Dark Mode</a>
-              <a rel="noopener noreferrer" href="#">Adding Base Styles</a>
-              <a rel="noopener noreferrer" href="#">Extracting Components</a>
-              <a rel="noopener noreferrer" href="#">Adding New Utilities</a>
+              <a rel="noopener noreferrer" href="#">
+                Utility-First
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Responsive Design
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Hover, Focus, &amp; Other States
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Dark Mode
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Adding Base Styles
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Extracting Components
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Adding New Utilities
+              </a>
             </div>
           </div>
 
           <div className="flex flex-col space-y-4 items-center">
             <h2 className="font-medium">Customization</h2>
             <div className="flex flex-col space-y-2 text-sm text-white items-center">
-              <a rel="noopener noreferrer" href="#">Configuration</a>
-              <a rel="noopener noreferrer" href="#">Theme Configuration</a>
-              <a rel="noopener noreferrer" href="#">Breakpoints</a>
-              <a rel="noopener noreferrer" href="#">Customizing Colors</a>
-              <a rel="noopener noreferrer" href="#">Customizing Spacing</a>
-              <a rel="noopener noreferrer" href="#">Configuring Variants</a>
-              <a rel="noopener noreferrer" href="#">Plugins</a>
+              <a rel="noopener noreferrer" href="#">
+                Configuration
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Theme Configuration
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Breakpoints
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Customizing Colors
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Customizing Spacing
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Configuring Variants
+              </a>
+              <a rel="noopener noreferrer" href="#">
+                Plugins
+              </a>
             </div>
           </div>
 
           <div className="flex flex-col space-y-4 items-center">
-            <h2 className="font-medium">Community</h2>
-            <div className="flex flex-col space-y-2 text-sm text-white items-center">
-              <a rel="noopener noreferrer" href="#">Whatsapp</a>
-              <a rel="noopener noreferrer" href="#">Facebook</a>
-              <a rel="noopener noreferrer" href="#">Twitter</a>
-              <a rel="noopener noreferrer" href="#">Instagram</a>
-              <a rel="noopener noreferrer" href="#">Youtube</a>
+            <h2 className="font-medium  ">Community</h2>
+            <div className="flex flex-col space-y-2 text-sm text-white items-center ">
+              <a
+                rel="noopener noreferrer"
+                href="https://web.whatsapp.com/"
+                className="bg-green-400"
+              >
+                Whatsapp
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/share/1GPbufaXSb/"
+                className="bg-green-400"
+              >
+                Facebook
+              </a>
+
+              <a
+                rel="noopener noreferrer"
+                href=" https://www.instagram.com/chzubair.official?igsh=MWptNTM3Znk1ajdqNA=="
+                className="bg-green-400"
+              >
+                Instagram
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://mail.google.com/mail/u/0/#inbox"className="bg-green-400"
+              >
+                Gmail
+              </a>
             </div>
           </div>
         </div>
@@ -77,4 +142,3 @@ function Footer() {
 }
 
 export default Footer;
-

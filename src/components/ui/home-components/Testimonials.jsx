@@ -33,8 +33,8 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 1.jpg"
-              alt=""
+              src={"./src/images/img1.jpg"}
+              alt="img 1"
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
             <p className="text-xl font-semibold leading-tight">Distinctio</p>
@@ -64,7 +64,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 2.webp"
+              src={"./src/images/img2.webp"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -95,7 +95,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src="girl 3.jpeg"
+              src={"./src/images/img3.jpeg"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -126,7 +126,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-gray-800 text-white ">
             <img
-              src="girl 4.JPG"
+              src={"./src/images/img4.jpg"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-300"
             />
