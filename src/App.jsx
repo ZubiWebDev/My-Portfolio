@@ -19,7 +19,7 @@ import Projects from "./pages/projects";
 import Testimonials from "./components/ui/home-components/Testimonials";
 import Contacts from "./pages/Contacts";
 import Navbar from "./components/shared/Navbar";
-import Workexperience from "./pages/Workexperience"; // ✅ Import add karo
+import Skills from "./pages/Skills"; // ✅ Import add karo
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/work-experience" element={<Workexperience />} />
+        <Route path="/Skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contacts" element={<Contacts />} />

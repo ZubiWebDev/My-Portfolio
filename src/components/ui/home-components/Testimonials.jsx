@@ -2,7 +2,9 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <section className=" dark:bg-gray-100 dark:text-gray-800">
+    <>
+    
+    <section className="  dark:text-gray-800">
       <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 ">
         <h1 className="p-15 text-4xl font-semibold leading-none text-center">
           Testimonials
@@ -33,7 +35,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src={"./src/images/img1.jpg"}
+              src={"http://beauty-around.com/images/sampledata/British_men/1henry-cavill.jpg"}
               alt="img 1"
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -64,7 +66,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src={"./src/images/img2.webp"}
+              src={"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b14597ff-e813-4b38-b0b3-fb885a5614c7/dg8ilfn-9a989675-a287-45fb-998a-4596726c1049.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxNDU5N2ZmLWU4MTMtNGIzOC1iMGIzLWZiODg1YTU2MTRjN1wvZGc4aWxmbi05YTk4OTY3NS1hMjg3LTQ1ZmItOTk4YS00NTk2NzI2YzEwNDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QmuAj0GmTqbZo3MEVxSS0NZwpi4_lwNEXOSGD2LHdug"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -95,7 +97,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg  bg-gray-800 text-white">
             <img
-              src={"./src/images/img3.jpeg"}
+              src={"https://civilisable.com/wp-content/uploads/2024/02/Traditional-British-Clothing-for-Men-27.2.2024-960x960.jpg"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full  dark:bg-gray-300"
             />
@@ -126,7 +128,7 @@ function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-gray-800 text-white ">
             <img
-              src={"./src/images/img4.jpg"}
+              src={"https://tse4.mm.bing.net/th/id/OIP.DqgDguU50b565WnxGceiCAHaIv?pid=Api&P=0&h=220"}
               alt=""
               className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-300"
             />
@@ -135,7 +137,9 @@ function Testimonials() {
           </div>
         </div>
       </div>
+    
     </section>
+    </>
   );
 }
 

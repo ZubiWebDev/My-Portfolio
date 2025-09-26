@@ -6,25 +6,26 @@ function Projects() {
       title: "E-Commerce Website",
       description:
         "An E-Commerce Website is a digital platform that allows customers to browse and purchase products online with ease. It offers a fast, secure, and user-friendly shopping experience just a click away.",
-      image: "./src/images/E-Commerce.jpg",
+      image: "E-Commerce.jpg",
       link: "https://my-ecommerce-website-lemon.vercel.app/",
     },
     {
       title: "Show Model One",
       description: "Show Model One is a modern and stylish design that highlights simplicity and elegance. Its user-friendly layout and appealing look create a smooth and engaging experience.",
-      image: "./src/images/Model pic.PNG",
+      image: "Model pic.PNG",
       link: "https://modal-js-main.vercel.app/",
     },
     {
       title: "Guess Number Game",
       description: "Guess Number Game is a fun and interactive game where players try to guess the hidden number within a limited range. It helps improve focus, logical thinking, and keeps users entertained.",
-      image: "./src/images/Guess number.PNG",
+      image: "Guess number.PNG",
       link: "https://guess-number-game-omega.vercel.app/",
     },
   ];
 
   return (
-    <section className="bg-gray-100 py-25">
+ <>
+    <section className=" py-25">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-12">My Projects</h2>
 
@@ -54,8 +55,13 @@ function Projects() {
             </div>
           ))}
         </div>
+        
       </div>
+      
     </section>
+    
+ </>
+ 
   );
 }
 
