@@ -6,19 +6,19 @@ function Projects() {
       title: "E-Commerce Website",
       description:
         "An E-Commerce Website is a digital platform that allows customers to browse and purchase products online with ease. It offers a fast, secure, and user-friendly shopping experience just a click away.",
-      image: "E-Commerce.jpg",
+      image: "imgs/E-Commerce.jpg",
       link: "https://my-ecommerce-website-lemon.vercel.app/",
     },
     {
       title: "Show Model One",
       description: "Show Model One is a modern and stylish design that highlights simplicity and elegance. Its user-friendly layout and appealing look create a smooth and engaging experience.",
-      image: "Model pic.PNG",
+      image: "imgs/Model pic.PNG",
       link: "https://modal-js-main.vercel.app/",
     },
     {
       title: "Guess Number Game",
       description: "Guess Number Game is a fun and interactive game where players try to guess the hidden number within a limited range. It helps improve focus, logical thinking, and keeps users entertained.",
-      image: "Guess number.PNG",
+      image: "imgs/Guess number.PNG",
       link: "https://guess-number-game-omega.vercel.app/",
     },
   ];
