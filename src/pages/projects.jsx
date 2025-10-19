@@ -23,6 +23,13 @@ function Projects() {
       image: "imgs/counter.PNG",
       link: "https://counter-ochre-two.vercel.app/",
     },
+    {
+      title: "Tour Courses API",
+      description:
+        "The Tour Courses API project fetches and displays real-time tour data from an external API using React and Vite.It shows each tour with its image, name, price, and short description in a clean card layout.The app also includes a loading state while data is being fetched, ensuring a smooth user experience.",
+      image: "imgs/tours.PNG",
+      link: "https://tour-api-fetching.vercel.app/",
+    },
   ];
 
   return (
