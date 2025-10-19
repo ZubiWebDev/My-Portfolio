@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div>
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className=" flex flex-wrap items-center justify-between mx-auto p-4 bg-gray-900">
           {/* Logo */}
           <a
             href="#"
@@ -13,7 +13,7 @@ function Navbar() {
             <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-xl font-extrabold shadow-lg">
               Z
             </div>
-            <span className="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-white">
               Zubair Dev
             </span>
           </a>

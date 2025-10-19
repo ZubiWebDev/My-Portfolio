@@ -97,35 +97,39 @@ function Footer() {
             </div>
           </div>
 
-                 {/* Community */}
+          {/* Community */}
           <div className="space-y-3">
             <h2 className="font-semibold text-lg">Community</h2>
             <div className="flex flex-col space-y-2 text-sm">
               <a
                 href="https://web.whatsapp.com/"
                 className="bg-green-500 text-white py-1 px-3 rounded-md"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 WhatsApp
               </a>
               <a
                 href="https://www.facebook.com/share/1GPbufaXSb/"
                 className="bg-blue-600 text-white py-1 px-3 rounded-md"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Facebook
               </a>
               <a
                 href="https://www.instagram.com/chzubair.official?igsh=MWptNTM3Znk1ajdqNA=="
                 className="bg-pink-500 text-white py-1 px-3 rounded-md"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Instagram
               </a>
               <a
                 href="https://mail.google.com/mail/u/0/#inbox"
                 className="bg-red-500 text-white py-1 px-3 rounded-md"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Gmail
               </a>
