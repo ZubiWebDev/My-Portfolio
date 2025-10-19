@@ -10,18 +10,18 @@ function Projects() {
       link: "https://my-ecommerce-website-lemon.vercel.app/",
     },
     {
-      title: "Academiya website",
+      title: "Remove User",
       description:
-        "This is my personal project where I built a modern online education platform that offers skill-based courses, certifications, and expert guidance. It includes features like course listings, tutor profiles, and flexible pricing plans. The goal of this project is to provide learners with an accessible and engaging environment to grow their technical and creative skills.",
-      image: "imgs/academiya.PNG",
-      link: "https://academiya-website.vercel.app/",
+        "This feature allows you to remove users one by one from the list.By clicking the delete button, a specific user’s card is removed from the display dynamically without affecting other users.It helps in managing user data easily and keeping the interface clean.",
+      image: "imgs/removeuser.PNG",
+      link: "https://remove-user-and-again-fetch.vercel.app/",
     },
     {
-      title: "Guess Number Game",
+      title: "Counter",
       description:
-        "Guess Number Game is a fun and interactive game where players try to guess the hidden number within a limited range. It helps improve focus, logical thinking, and keeps users entertained.",
-      image: "imgs/Guess number.PNG",
-      link: "https://guess-number-game-omega.vercel.app/",
+        "This is a simple Counter App project that allows users to increase, decrease, or reset a number with just one click. It features three buttons — Increment, Decrement, and Reset — to manage the counter value easily. The project demonstrates basic JavaScript functionality and dynamic DOM manipulation. It’s a great beginner project to understand event handling and UI updates in real time.",
+      image: "imgs/counter.PNG",
+      link: "https://counter-ochre-two.vercel.app/",
     },
   ];
 

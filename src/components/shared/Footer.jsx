@@ -97,34 +97,35 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-4 items-center">
-            <h2 className="font-medium  ">Community</h2>
-            <div className="flex flex-col space-y-2 text-sm text-white items-center ">
+                 {/* Community */}
+          <div className="space-y-3">
+            <h2 className="font-semibold text-lg">Community</h2>
+            <div className="flex flex-col space-y-2 text-sm">
               <a
-                rel="noopener noreferrer"
                 href="https://web.whatsapp.com/"
-                className="bg-green-400"
+                className="bg-green-500 text-white py-1 px-3 rounded-md"
+                target="_blank" rel="noopener noreferrer"
               >
-                Whatsapp
+                WhatsApp
               </a>
               <a
-                rel="noopener noreferrer"
                 href="https://www.facebook.com/share/1GPbufaXSb/"
-                className="bg-green-400"
+                className="bg-blue-600 text-white py-1 px-3 rounded-md"
+                target="_blank" rel="noopener noreferrer"
               >
                 Facebook
               </a>
-
               <a
-                rel="noopener noreferrer"
-                href=" https://www.instagram.com/chzubair.official?igsh=MWptNTM3Znk1ajdqNA=="
-                className="bg-green-400"
+                href="https://www.instagram.com/chzubair.official?igsh=MWptNTM3Znk1ajdqNA=="
+                className="bg-pink-500 text-white py-1 px-3 rounded-md"
+                target="_blank" rel="noopener noreferrer"
               >
                 Instagram
               </a>
               <a
-                rel="noopener noreferrer"
-                href="https://mail.google.com/mail/u/0/#inbox"className="bg-green-400"
+                href="https://mail.google.com/mail/u/0/#inbox"
+                className="bg-red-500 text-white py-1 px-3 rounded-md"
+                target="_blank" rel="noopener noreferrer"
               >
                 Gmail
               </a>
